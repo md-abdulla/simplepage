@@ -1,0 +1,161 @@
+body {
+    background: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    width: 80px;
+    box-shadow: 0 0 50px;
+    height: 400px;
+    background: seagreen;
+    text-align: center;
+    padding: 20px 0;
+    float: left;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    transform: translate(-2%, -50%);
+    z-index: 5;
+}
+
+.menu img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 20px 0;
+    display: block;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.menu .fas {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+}
+
+.menu ul li a:hover {
+    background: black;
+    text-decoration: none;
+}
+
+#home {
+    padding: 50px 0;
+}
+
+#home h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#home h3 {
+    text-align: center;
+    color: seagreen;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#home img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border: 5px solid seagreen;
+    border-radius: 30px;
+}
+
+#home .mypic {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#about {
+    padding: 50px 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: seagreen;
+}
+
+#about .me {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.me p {}
+
+.me span {}
+
+.skillbox {
+    width: 500px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.skillbox p {
+    color: #fff;
+}
+
+#projects {
+    padding: 100px 0;
+}
+
+.slid {
+    width: 240px;
+    margin: 0 auto;
+    border: 5px solid seagreen;
+    margin-top: 50px;
+}
+.slid .owl-carousel img{
+    width: 300px;
+}
+.getintouch {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #fff;
+}
+
+footer {
+    background: darkslategray;
+    width: 100;
+}
+
+footer .cr {
+    text-align: center;
+    color: white;
+}
